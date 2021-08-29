@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+.ourService>h2{
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.55;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-bottom: 61px;
+    margin-top: 80px;
+}
+.ourService>p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.66;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-bottom: 80px;
+}
+.ourService>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+.ourService>ul>li{
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 37px;
+    margin-right: 35px;
+}
+
+.ourService>ul>li>img{
+    padding: 54px 37px 47px;
+
+}
+.ourService>ul>li>h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.33;
+    color: #000000;
+    padding-left: 38px;
+    text-align: left;
+}
+.ourService>ul>li>p{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.07;
+    color: #7D7987;
+    padding-left: 38px;
+    text-align: left;
+}
+.ourService>.button{
+    text-align: center;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+.ourService>.button>.button{
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 3.33;
+    text-decoration: none;
+    align-items: center;
+    color: #458FF6;
+    padding-left: 51px;
+    padding-right: 51px;
+    border-radius: 15px;
+    border-color: #458FF6;
+}

@@ -1,0 +1,87 @@
+.conteiner{
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 160px;
+    margin-left: 191px;
+    margin-right: 192px;
+}
+header>nav{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 545px;
+}
+header>nav>.logo{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;  
+}
+header>nav>.logo>a{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+header>nav>.logo>img{
+    height: 41px;
+    width: 41px;
+}
+header>nav>ul{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.25 ;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: right;
+    margin-left: 512px;
+}
+li{
+    margin-left: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.vh{
+    display: inline-flex;
+    align-items: center;
+}
+.vh>.text{
+    max-width: 445px;
+    margin-left: 190px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.vh>.text>h1{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.16;
+    text-align: left;
+    margin-bottom: 21px;
+}
+.vh>.text>h2{
+    font-weight: 300;
+    font-size: 1.3125rem;
+    line-height: 1.52;
+    text-align: left;
+    margin-bottom: 45px;
+}
+.vh>.text>.button{
+    background: #458FF6;
+    border-radius: 55px;
+    color: white;
+    width: 200px;
+    font-size: 1.125rem;
+    line-height: 3.33;
+    height: 56px;
+    text-align: center;
+    margin-left: 0;
+}
+.vh>.image>img{
+    width: 693px;
+    height: 598px;
+    align-items: center;
+    margin-left: 127px;
+}
