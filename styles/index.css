@@ -2,6 +2,15 @@
 @import url(hero.css);
 @import url(ourservice.css);
 @import url(checkout.css);
+html{
+    font-size: 10px;
+}
+
 body{
     font-family: 'Mulish', sans-serif;
+}
+.conteiner{
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 }
