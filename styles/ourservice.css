@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 .ourService>h2{
     font-weight: bold;
     font-size: 2.25rem;
@@ -60,21 +58,14 @@
     text-align: left;
 }
 .ourService>.button{
-    text-align: center;
     border: 1.4px solid #458FF6;
     border-radius: 55px;
-    margin-left: 43%;
-    margin-right: 43%;
+    width: 200px;
 }
 .ourService>.button>.button{
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 3.33;
     text-decoration: none;
-    align-items: center;
     color: #458FF6;
-    padding-left: 51px;
-    padding-right: 51px;
-    border-radius: 15px;
-    border-color: #458FF6;
 }
