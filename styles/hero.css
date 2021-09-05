@@ -40,6 +40,7 @@ nav ul li a{
 .vh{
     display: inline-flex;
     align-items: center;
+    padding-top: 84px;
 }
 .vh>.text{
     display: inline-flex;
