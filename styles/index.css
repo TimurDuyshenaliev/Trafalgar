@@ -15,3 +15,19 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.button1{
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1>.button2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #458FF6;
+}
