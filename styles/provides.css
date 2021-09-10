@@ -1,20 +1,45 @@
-.provides>.conteiner>.content-text>h2{
+.provides>.conteiner>ul>li>.content-text>h2{
     font-weight: 700;
     font-size: 3.6rem;
     line-height: 1.5;
     color: #000000;
+    padding-bottom: 59px;
 }
-.provides>.conteiner>.content-text>p{
+.provides>.conteiner>ul>li>.content-text>p{
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.66;
     color: #7D7987;
+    padding-bottom: 37px;
 }
+.content-text{
+    width: 450px;
+    text-align: left;
+
+}
+.button3{
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+}    
+.button4{
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    text-decoration: none;
+    color: #458FF6;
+    display: flex;
+    justify-content: center;
+}    
 .provides>.conteiner>img{
     width: 650px;
+    position: absolute;
+}
+.provides ul{
+    display: flex;
+    gap: 100px;
+
 }
 .provides{
-    display: inline-flex;
-    flex-direction: column;
-
+    margin-top: 220px;
 }

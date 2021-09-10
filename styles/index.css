@@ -2,6 +2,7 @@
 @import url(hero.css);
 @import url(ourservice.css);
 @import url(provides.css);
+@import url(mobileApps.css);
 @import url(checkout.css);
 html{
     font-size: 10px;
