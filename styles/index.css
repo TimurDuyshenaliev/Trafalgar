@@ -5,6 +5,7 @@
 @import url(mobileApps.css);
 @import url(customer.css);
 @import url(checkout.css);
+@import url(footer.css);
 html{
     font-size: 10px;
 }
