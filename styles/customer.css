@@ -1,0 +1,53 @@
+.customer{
+    width: 1120px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 266px;
+}
+.customer>.conteiner>h2{
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.33;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 64px;
+}
+.customer>.conteiner>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    padding-top: 104px;
+}
+.customer>.conteiner>ul>li{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 118px;
+}
+.customer>.conteiner>ul>li:nth-child(2){
+    width: 420px;
+    padding-left: 0;
+}
+.customer>.conteiner>ul>li>p{
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.58;
+    color: rgba(255, 255, 255, 0.9);
+}
+.customer>.conteiner>ul>li>.name>h3{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.18;
+    color: #FFFFFF;
+}
+.customer>.conteiner>ul>li>.name>h4{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.67;
+    color: #FFFFFF;
+}
+.name{
+    padding-left: 29px;
+}

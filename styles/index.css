@@ -3,6 +3,7 @@
 @import url(ourservice.css);
 @import url(provides.css);
 @import url(mobileApps.css);
+@import url(customer.css);
 @import url(checkout.css);
 html{
     font-size: 10px;
